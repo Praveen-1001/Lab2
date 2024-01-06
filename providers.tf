@@ -3,7 +3,7 @@ terraform {
     bucket = "prav-tfstate-bkt"
     key    = "terraform.tfstate"
     region = "eu-north-1"
-    dynamodb_table = "my-lock-table"
+    #dynamodb_table = "my-lock-table"
   }
 }
 
